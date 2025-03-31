@@ -48,7 +48,7 @@ class FastDiTModelConfig:
         self.num_sampling_steps = 250
 
         # sample
-        self.samples_num = 1000
+        self.samples_num = 12000
         self.samples_batch_size = 3000
         self.sample_dir = os.path.join(EXC_DIR,"fast_dit/data/samples/", self.h5ad_name)
 
